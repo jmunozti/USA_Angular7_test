@@ -1,0 +1,29 @@
+{
+  "name": "Angular7",
+  "version": "1.0.0",
+  "description": "exam",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "fs": "0.0.1-security",
+    "request": "^2.88.0",
+    "restify": "^7.7.0",
+    "restify-clients": "^2.6.4",
+    "restify-cors-middleware": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "backend": "node --experimental-modules app.js",
+    "test": "mocha -R list --use_strict --colors --check-leaks --full-trace --exit --recursive --throw-deprecation "
+  },
+  "keywords": [
+    "exam"
+  ],
+  "author": "Jorge Munoz",
+  "license": "MIT"
+}
